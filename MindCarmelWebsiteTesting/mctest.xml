@@ -1,0 +1,70 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="MindCarmelWebsiteTesting" parallel="false">
+	<listeners>
+		<listener class-name="com.utils.Listener" />
+	</listeners>
+	
+	
+	<test name="TC_01_HomePageValidations">
+	
+	<parameter name = "Browser" value="chrome"/>
+		<classes>
+			<class name="com.mindcarmel.tests.TC_01_HomePageValidations" />
+		</classes>
+	</test>
+
+	<test name="TC_02_PsychologistBookingValidations">
+	
+	<parameter name = "Browser" value="chrome"/>
+		<classes>
+			<class
+				name="com.mindcarmel.tests.TC_02_PsychologistBookingValidations" />
+		</classes>
+	</test>
+	<test name="TC_03_RegisterProgramsValidations">
+	
+	<parameter name = "Browser" value="chrome"/>
+		<classes>
+			<class
+				name="com.mindcarmel.tests.TC_03_RegisterProgramsValidations" />
+		</classes>
+	</test>
+	<test name="TC_04_RegisterCoursesValidations">
+	
+	<parameter name = "Browser" value="chrome"/>
+		<classes>
+			<class
+				name="com.mindcarmel.tests.TC_04_RegisterCoursesValidations" />
+		</classes>
+	</test>
+	<test name="TC_05_AboutPageValidations">
+	
+	<parameter name = "Browser" value="chrome"/>
+		<classes>
+			<class name="com.mindcarmel.tests.TC_05_AboutPageValidations" />
+		</classes>
+	</test>
+	<test name="TC_06_InstitutesPageValidations">
+	
+	<parameter name = "Browser" value="chrome"/>
+		<classes>
+			<class
+				name="com.mindcarmel.tests.TC_06_InstitutesPageValidations" />
+		</classes>
+	</test>
+
+	<test name="TC_07_BlogsPageValidations">
+	
+	<parameter name = "Browser" value="chrome"/>
+		<classes>
+			<class name="com.mindcarmel.tests.TC_07_BlogsPageValidations" />
+		</classes>
+	</test>
+	<test name="TC_08_ContactPageValidations">
+	
+	<parameter name = "Browser" value="chrome"/>
+		<classes>
+			<class name="com.mindcarmel.tests.TC_08_ContactPageValidations" />
+		</classes>
+	</test>
+</suite>
